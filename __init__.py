@@ -13,3 +13,4 @@ from colorspacious import cspace_converter
 
 from .customcmaps import mycmap, mycmapdiv, plot_cmap
 from .linesourcepostprocess import lspp
+from .linesource import getls

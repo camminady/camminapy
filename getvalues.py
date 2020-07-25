@@ -78,7 +78,7 @@ def configfile2dict(configfilename):
                 if not stripped_line[0] == "#":
                     try:
                         s = stripped_line.split("=")
-                        config[s[0].strip()] = int(s[1].strip()) 
+                        config[s[0].strip()] = float(s[1].strip()) 
                     except:
                         pass
     return config
