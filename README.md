@@ -1,6 +1,8 @@
 # camminapy
 A collection of (useful) Python scripts. 
 
+Dependencies: [kitcolors](https://github.com/camminady/kitcolors), [kitstyle](https://github.com/camminady/kitstyle)
+
 ## Overview
 
 Create a colormap from `darkcolor` to `brightcolor`:
